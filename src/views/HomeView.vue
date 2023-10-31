@@ -11,15 +11,15 @@
 
 <template>
 
-  <Header />
+  <Header element="nexon" />
   <main>
-    <Slider />
-    <Image /> 
-    <ImageText />
-    <Card />
-    <Banner />
-    <Text />
+    <Slider Element="nexon" title="슬라이드" span="DEVELOPER"/>
+    <Image Element="section nexon" h2="포트폴리오가 실력이다."/> 
+    <ImageText Element="section nexon"/>
+    <Card Element="section nexon" />
+    <Banner Element="nexon"/>
+    <Text Element="nexon section"/>
   </main>
-  <Footer />
+  <Footer Element="nexon section"/>
 
 </template>
